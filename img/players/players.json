@@ -1,0 +1,174 @@
+{
+  "nicolas": {
+    "photo": "img/players/nicolas.jpg",
+    "credit": "borussia.de",
+    "highlight": "Begann als Feldspieler – bis er beim Hallentraining ins Tor gestellt wurde!",
+    "club": "Borussia Mönchengladbach",
+    "no": "1",
+    "flag": "🇩🇪"
+  },
+  "chiarodia": {
+    "photo": "img/players/chiarodia.jpg",
+    "credit": "borussia.de",
+    "highlight": "War mit 16 jüngster Profi der Werder-Geschichte – U19-Europameister 2023",
+    "club": "Borussia Mönchengladbach",
+    "no": "2",
+    "flag": "🇮🇹"
+  },
+  "diks": {
+    "photo": "img/players/diks.jpg",
+    "credit": "borussia.de",
+    "highlight": "Dreimal dänischer Meister mit dem FC Kopenhagen (2022, 2023, 2025)",
+    "club": "Borussia Mönchengladbach",
+    "no": "4",
+    "flag": "🇮🇩"
+  },
+  "scally": {
+    "photo": "img/players/scally.jpg",
+    "credit": "borussia.de",
+    "highlight": "Stand zweimal im WM-Kader der USA: 2022 und 2026",
+    "club": "Borussia Mönchengladbach",
+    "no": "29",
+    "flag": "🇺🇸"
+  },
+  "ullrich": {
+    "photo": "img/players/ullrich.jpg",
+    "credit": "borussia.de",
+    "highlight": "U21-Vize-Europameister 2025 und Bundesliga-Rookie des Monats (Februar 2025)",
+    "club": "Borussia Mönchengladbach",
+    "no": "26",
+    "flag": "🇩🇪"
+  },
+  "sander": {
+    "photo": "img/players/sander.jpg",
+    "credit": "borussia.de",
+    "highlight": "Schaffte 2024 mit Holstein Kiel den Aufstieg in die Bundesliga",
+    "club": "Borussia Mönchengladbach",
+    "no": "16",
+    "flag": "🇩🇪"
+  },
+  "neuhaus": {
+    "photo": "img/players/neuhaus.jpg",
+    "credit": "borussia.de",
+    "highlight": "10 Länderspiele und 2 Tore für die deutsche Nationalmannschaft",
+    "club": "Borussia Mönchengladbach",
+    "no": "10",
+    "flag": "🇩🇪"
+  },
+  "uno": {
+    "photo": "img/players/uno.jpg",
+    "credit": "borussia.de",
+    "highlight": "Stieg in Japan zweimal in Folge als Zweitligameister auf (2023 und 2024)",
+    "club": "Borussia Mönchengladbach",
+    "no": "47",
+    "flag": "🇯🇵"
+  },
+  "mohya": {
+    "photo": "img/players/mohya.jpg",
+    "credit": "borussia.de",
+    "highlight": "Jüngster Profi der Gladbacher Vereinsgeschichte – mit 16 Jahren und 9 Monaten!",
+    "club": "Borussia Mönchengladbach",
+    "no": "36",
+    "flag": "🇩🇪"
+  },
+  "bolin": {
+    "photo": "img/players/bolin.jpg",
+    "credit": "borussia.de",
+    "highlight": "Zweimal schwedischer Meister mit Malmö FF (2023 und 2024)",
+    "club": "Borussia Mönchengladbach",
+    "no": "38",
+    "flag": "🇸🇪"
+  },
+  "hack": {
+    "photo": "img/players/hack.jpg",
+    "credit": "borussia.de",
+    "highlight": "Schoss im April 2024 einen Bundesliga-Dreierpack gegen Ex-Klub Hoffenheim",
+    "club": "Borussia Mönchengladbach",
+    "no": "25",
+    "flag": "🇩🇪"
+  },
+  "honorat": {
+    "photo": "img/players/honorat.jpg",
+    "credit": "borussia.de",
+    "highlight": "Gab schon mit 17 Jahren sein Profidebüt in Frankreichs Ligue 1",
+    "club": "Borussia Mönchengladbach",
+    "no": "9",
+    "flag": "🇫🇷"
+  },
+  "machino": {
+    "photo": "img/players/machino.jpg",
+    "credit": "borussia.de",
+    "highlight": "Mit Japan Ostasienmeister 2022 – und Torschützenkönig des Turniers!",
+    "club": "Borussia Mönchengladbach",
+    "no": "18",
+    "flag": "🇯🇵"
+  },
+  "kleindienst": {
+    "photo": "img/players/kleindienst.jpg",
+    "credit": "borussia.de",
+    "highlight": "Torschützenkönig der 2. Liga 2022/23 (25 Tore) und Doppelpack für Deutschland beim 7:0",
+    "club": "Borussia Mönchengladbach",
+    "no": "11",
+    "flag": "🇩🇪"
+  },
+  "castrop": {
+    "photo": "img/players/castrop.jpg",
+    "credit": "borussia.de",
+    "highlight": "Spielte bei der WM 2026 für Südkorea, die Heimat seiner Mutter",
+    "club": "Borussia Mönchengladbach",
+    "no": "17",
+    "flag": "🇰🇷"
+  },
+  "kane": {
+    "photo": "img/players/kane.jpg",
+    "credit": "Bryan Berlin, CC BY-SA 4.0 (Wikimedia Commons)",
+    "highlight": "Gewann den Ballon d'Or 2026 – und ist Englands Rekordtorschütze!",
+    "club": "FC Bayern München",
+    "no": "9",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+  },
+  "yamal": {
+    "photo": "img/players/yamal.jpg",
+    "credit": "Bryan Berlin, CC BY-SA 4.0 (Wikimedia Commons)",
+    "highlight": "Mit 17 Europameister (2024), mit 19 Weltmeister (2026)!",
+    "club": "FC Barcelona",
+    "no": "10",
+    "flag": "🇪🇸"
+  },
+  "mbappe": {
+    "photo": "img/players/mbappe.jpg",
+    "credit": "Bryan Berlin, CC BY-SA 4.0 (Wikimedia Commons)",
+    "highlight": "Weltmeister 2018 und WM-Rekordtorschütze aller Zeiten (22 WM-Tore)",
+    "club": "Real Madrid",
+    "no": "10",
+    "flag": "🇫🇷"
+  },
+  "nunomendes": {
+    "photo": "img/players/nunomendes.jpg",
+    "credit": "Bryan Berlin, CC BY-SA 4.0 (Wikimedia Commons)",
+    "highlight": "Champions-League-Sieger 2025 und 2026 mit Paris Saint-Germain",
+    "club": "Paris Saint-Germain",
+    "no": "25",
+    "flag": "🇵🇹"
+  },
+  "haaland": {
+    "photo": "img/players/haaland.jpg",
+    "credit": "Bryan Berlin, CC BY-SA 4.0 (Wikimedia Commons)",
+    "highlight": "Norwegens Rekordtorschütze: 68 Tore in 61 Länderspielen (Stand: Nov. 2026)",
+    "club": "Manchester City",
+    "no": "9",
+    "flag": "🇳🇴"
+  },
+  "ronaldo": {
+    "photo": "img/players/ronaldo.jpg",
+    "credit": "Bryan Berlin, CC BY-SA 4.0 (Wikimedia Commons)",
+    "highlight": "Weltrekord: 146 Länderspieltore – so viele wie kein anderer Mann!",
+    "club": "Al-Nassr",
+    "no": "7",
+    "flag": "🇵🇹"
+  },
+  "bmg": {
+    "photo": "img/players/bmg.png",
+    "credit": "Borussia Mönchengladbach, Public domain (Wikimedia Commons)"
+  }
+}

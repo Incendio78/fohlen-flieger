@@ -1,0 +1,58 @@
+// Offline cache: bump VERSION after changing any file so tablets pick up the update.
+const VERSION = 'ff-v11';
+const FILES = [
+  './',
+  './index.html',
+  './css/style.css',
+  './manifest.webmanifest',
+  './icons/icon.svg',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './js/questions.js',
+  './js/content.js',
+  './js/fussball.js',
+  './js/data.js',
+  './js/audio.js',
+  './js/draw.js',
+  './js/penalty.js',
+  './js/flight.js',
+  './js/sprint.js',
+  './js/quizgame.js',
+  './js/cockpit.js',
+  './js/cargo.js',
+  './js/pass.js',
+  './js/app.js',
+  './img/planes/a380-sprite.png',
+  './img/planes/a380.jpg',
+  './img/planes/an22-sprite.png',
+  './img/planes/an22.jpg',
+  './img/planes/an225-sprite.png',
+  './img/planes/an225.jpg',
+  './img/planes/b747-sprite.png',
+  './img/planes/b747.jpg',
+  './img/planes/beluga-sprite.png',
+  './img/planes/beluga.jpg',
+  './img/planes/dreamlifter-sprite.png',
+  './img/planes/dreamlifter.jpg',
+  './img/players/bmg.png',
+  './img/players/bolin.jpg',
+  './img/players/diks.jpg',
+  './img/players/haaland.jpg',
+  './img/players/honorat.jpg',
+  './img/players/kane.jpg',
+  './img/players/kleindienst.jpg',
+  './img/players/machino.jpg',
+  './img/players/mbappe.jpg',
+  './img/players/neuhaus.jpg',
+  './img/players/nunomendes.jpg',
+  './img/players/ronaldo.jpg',
+  './img/players/sander.jpg',
+  './img/players/scally.jpg',
+  './img/players/yamal.jpg',
+];
+self.addEventListener('install', e => e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting())));
+self.addEventListener('activate', e => e.waitUntil(
+  caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim())));
+self.addEventListener('fetch', e => {
+  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request)));
+});
